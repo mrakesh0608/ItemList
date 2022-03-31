@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(53, 184, 53);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#query{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#filter, #new-item{
+    padding: 15px;
+}
+#div-item{
+    border: solid 1px black;
+    padding: 20px;
+    margin: 10px;
+    background-color: sandybrown;
+}
+#list{
+    list-style: none;
+    /* border: 1px solid ; */
+    padding: 0;
+}
+#list li:nth-child(even){
+    background-color: rgb(93, 224, 89);
+}
+#list li:nth-child(odd){
+    background-color: rgb(133, 180, 129);
+}
+.item-list{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.item-list button{
+    background-color: red;
+    color:white;
+}
